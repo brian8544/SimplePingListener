@@ -1,6 +1,6 @@
 # SimplePingListener
 
-This application listens the port configured (in the source code), so services that monitor your machine uptime can pick it up without having to install (IIS, Apache2, NGINX, etc.) a seperate webserver for such simple function. Do not forget to port-forward the selected port in your operating system & network devices!
+This application listens the port configured (in the source code), so services that monitor your machine uptime can pick it up without having to install  a seperate webserver (IIS, Apache2, NGINX, etc.) for such simple function. Do not forget to port-forward the selected port in your operating system & network devices!
 
 I've only tested it on a handful Windows machines, because that's what I use the most.
 

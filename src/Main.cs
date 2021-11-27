@@ -1,5 +1,7 @@
-﻿// Simple service that listens the selected port, so you are able to ping it with an uptime monitoring service such as https://uptimerobot.com
-// Do not forget to forward the selected port in your firewall and network devices!
+﻿// This application listens the port, so services that monitor your machine uptime can pick it up without having to install a seperate webserver for such simple function. 
+// Do not forget to port-forward the selected port in your operating system & network devices!
+// I've only tested it on a handful Windows machines, because that's what I use the most.
+// There is no license attached to this code, feel free to edit/publish it to your liking. :)
 
 using System.Text;
 using System.Net;
@@ -73,7 +75,7 @@ namespace PingListenerMain
             PingListener.Prefixes.Add(url);
             PingListener.Start();
             Console.WriteLine("Listening for connections on {0}", url);
-            Console.WriteLine("To stop PingListener, press CTRL + C");
+            Console.WriteLine("To stop SimplePingListener, press CTRL + C");
 
             // Request handler
             Task listenTask = HandleIncomingConnections();
