@@ -13,6 +13,5 @@ Requires: [.Net 6.0](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-
 
 Run `Build_Windows.bat` and then navigate into the /bin folder and select the compiled release folder (debug/release). Afterwards launch it by clicking the .exe
 
-
 ## Contribute
 Found an exploit or bug? Feel free to create a GitHub issue or make a pull-request with your fix!
